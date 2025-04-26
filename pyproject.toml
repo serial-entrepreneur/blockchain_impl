@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "plodchain"
+version = "0.1.0"
+description = "a blockchain to validate skills"
+authors = ["Devashish Bose <ybokoboko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ecdsa = "^0.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
